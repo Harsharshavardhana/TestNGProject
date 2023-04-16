@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="16" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="Homeloantest.test2()[pri:0, instance:Testcase.Homeloantest@3b2cf7ab]" name="test2" class="Testcase.Homeloantest"/>
+        <method signature="craditcardtest.test4()[pri:0, instance:Testcase.craditcardtest@3a079870]" name="test4" class="Testcase.craditcardtest"/>
+      </group> <!-- Sanity -->
+      <group name="regression">
+        <method signature="Homeloantest.test2()[pri:0, instance:Testcase.Homeloantest@3b2cf7ab]" name="test2" class="Testcase.Homeloantest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test" duration-ms="76" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+      <class name="Testcase.carloantest">
+        <test-method status="PASS" signature="method3()[pri:0, instance:Testcase.carloantest@657c8ad9]" name="method3" is-config="true" duration-ms="23" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:Testcase.carloantest@657c8ad9]" name="method1" is-config="true" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:Testcase.carloantest@657c8ad9]" name="test3" duration-ms="2" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Testcase.carloantest@657c8ad9]" name="method" is-config="true" duration-ms="2" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:Testcase.carloantest@657c8ad9]" name="method4" is-config="true" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- Testcase.carloantest -->
+      <class name="Testcase.craditcardtest">
+        <test-method status="PASS" signature="test4()[pri:0, instance:Testcase.craditcardtest@3a079870]" name="test4" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:Testcase.craditcardtest@3a079870]" name="method1" is-config="true" duration-ms="0" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Testcase.craditcardtest@3a079870]" name="method" is-config="true" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- Testcase.craditcardtest -->
+      <class name="Testcase.Homeloantest">
+        <test-method status="PASS" signature="test2()[pri:0, instance:Testcase.Homeloantest@3b2cf7ab]" name="test2" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:Testcase.Homeloantest@3b2cf7ab]" name="method1" is-config="true" duration-ms="0" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Testcase.Homeloantest@3b2cf7ab]" name="method" is-config="true" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:Testcase.Homeloantest@3b2cf7ab]" name="method1" is-config="true" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Testcase.Homeloantest@3b2cf7ab]" name="test1" duration-ms="1" started-at="2023-04-16T04:53:24Z" depends-on-methods="Testcase.Homeloantest.test2" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Testcase.Homeloantest@3b2cf7ab]" name="method" is-config="true" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- Testcase.Homeloantest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Sanity" duration-ms="5" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="Homeloantest.test2()[pri:0, instance:Testcase.Homeloantest@2aa3cd93]" name="test2" class="Testcase.Homeloantest"/>
+        <method signature="craditcardtest.test4()[pri:0, instance:Testcase.craditcardtest@add0edd]" name="test4" class="Testcase.craditcardtest"/>
+      </group> <!-- Sanity -->
+      <group name="regression">
+        <method signature="Homeloantest.test2()[pri:0, instance:Testcase.Homeloantest@2aa3cd93]" name="test2" class="Testcase.Homeloantest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test" duration-ms="5" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+      <class name="Testcase.carloantest">
+        <test-method status="PASS" signature="method3()[pri:0, instance:Testcase.carloantest@527e5409]" name="method3" is-config="true" duration-ms="0" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:Testcase.carloantest@527e5409]" name="method4" is-config="true" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- Testcase.carloantest -->
+      <class name="Testcase.craditcardtest">
+        <test-method status="PASS" signature="test4()[pri:0, instance:Testcase.craditcardtest@add0edd]" name="test4" duration-ms="1" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:Testcase.craditcardtest@add0edd]" name="method1" is-config="true" duration-ms="0" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Testcase.craditcardtest@add0edd]" name="method" is-config="true" duration-ms="0" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- Testcase.craditcardtest -->
+      <class name="Testcase.Homeloantest">
+        <test-method status="PASS" signature="method1()[pri:0, instance:Testcase.Homeloantest@2aa3cd93]" name="method1" is-config="true" duration-ms="0" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Testcase.Homeloantest@2aa3cd93]" name="test2" duration-ms="0" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Testcase.Homeloantest@2aa3cd93]" name="method" is-config="true" duration-ms="0" started-at="2023-04-16T04:53:24Z" finished-at="2023-04-16T04:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- Testcase.Homeloantest -->
+    </test> <!-- Test -->
+  </suite> <!-- Sanity -->
+</testng-results>
